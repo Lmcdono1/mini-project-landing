@@ -5,3 +5,24 @@
     background: url(https://media.giphy.com/media/d47GSn4KhZT4p6Du/giphy.gif) no-repeat center center fixed;
     background-size: cover;
 }
+
+.navbar.navbar-inverse.navbar-fixed-top{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.navbar.navbar-inverse .navbar-nav .active>a {
+    background-color: unset;
+}
+
+.navbar-brand{
+    font-size: 24px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
