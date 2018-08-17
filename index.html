@@ -45,6 +45,10 @@
     </div>
     <div class="hero-wrap">
         <h1 class="hero-cta">Get Pickin', Not Picky!</h1>
+        <script>
+            var domainroot = "pcfilicetti.github.io/mini-project-landing"
+            function Gsitesearch(curobj) { curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value } 
+        </script>
         <form class="hero-search" role="search">
             <div class="input-group">
                 <input name="q" type="hidden" />
@@ -64,12 +68,6 @@
 
         </div>
     </div>
-    <script>
-        //GOOGLE SEARCH
-        //Enter domain of site to search.
-        var domainroot = "pcfilicetti.github.io/mini-project-landing"
-        function Gsitesearch(curobj) { curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value } 
-    </script>
 </body>
 
 </html>
