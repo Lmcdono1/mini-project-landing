@@ -41,9 +41,9 @@
             display: inline-block;
             width: 30%;
             margin: 40px 0;
-            padding: 10px;
+            padding: 0;
             border: none;
-            border-bottom: 3px white solid;
+            border-bottom: 3px orangered solid;
 }
 
 .form-group{
@@ -80,6 +80,103 @@
     margin-top: 2%;
     background-color: orangered;
     color: white;
-
 }
 
+
+            .hero-wrap .hero-search .input-group {
+                background-color: transparent;
+            }
+
+                .hero-wrap .hero-search .input-group .form-control {
+                    background-color: transparent;
+                    border: none;
+                    padding: 10px;
+                    box-shadow: none;
+                    color: white;
+                    border-top-left-radius: 5px;
+                }
+
+                    .hero-wrap .hero-search .input-group .form-control::placeholder {
+                        color: orangered;
+                    }
+
+                    .hero-wrap .hero-search .input-group .form-control:hover, .hero-wrap .hero-search .input-group .form-control:focus, .hero-wrap .hero-search .input-group .form-control:active {
+                        background-color: rgba(200,200,200,0.8);
+                        transition: background-color 0.2s ease-in-out;
+                    }
+
+                .hero-wrap .hero-search .input-group .input-group-btn .btn-default {
+                    background-color: transparent;
+                    color: orangered;
+                    border: none;
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 0;
+                    margin-bottom: 0;
+                }
+
+                .hero-wrap .hero-search .input-group .input-group-btn .btn-default:hover, .hero-wrap .hero-search .input-group .input-group-btn .btn-default:focus, .hero-wrap .hero-search .input-group .input-group-btn .btn-default:active {
+                    background-color: rgba(200,200,200,0.8);
+                    transition: background-color 0.2s ease-in-out;
+                }
+
+.navbar.navbar-inverse.navbar-fixed-top{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+                
+.navbar-brand{
+    font-size: 24px;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: unset;
+}
+                
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    background-color: unset;
+    color:white;
+}
+
+.navbar-inverse .navbar-nav>.active:hover>a, .navbar-inverse .navbar-nav>li:hover>a {
+    background-color: black;
+    color: orangered;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .row {
+    text-align: center;
+}
+
+.card {
+    width: 25%;
+    display: inline-block;
+    border: 1px #666 solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px 20px;
+    box-shadow: 1px 1px 10px 1px #bbb;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px 1px #777;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card .card-title {
+    font-size: 24px;
+}
+
+.card .card-hr {
+    border-color: #666;
+}
+
+.card .card-link {
+    display: block;
+    color: orangered;
+}
+
+.card .card-link:hover {
+    text-decoration: none;
+    color: #bb0100;
+    transition: color 0.2s ease-in-out;
+}
