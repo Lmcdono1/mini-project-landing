@@ -84,3 +84,36 @@
     color: orangered;
     transition: all 0.2s ease-in-out;
 }
+
+.container .row {
+    text-align: center;
+}
+
+.card {
+    width: 25%;
+    display: inline-block;
+    border: 1px #666 solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px 20px;
+    box-shadow: 1px 1px 10px 1px #bbb;
+}
+
+.card .card-title {
+    font-size: 24px;
+}
+
+.card .card-hr {
+    border-color: #666;
+}
+
+.card .card-link {
+    display: block;
+    color: orangered;
+}
+
+.card .card-link:hover {
+    text-decoration: none;
+    color: #bb0100;
+    transition: color 0.2s ease-in-out;
+}
