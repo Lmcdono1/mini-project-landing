@@ -1,0 +1,7 @@
+.hero-wrap {
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    background: url(https://media.giphy.com/media/d47GSn4KhZT4p6Du/giphy.gif) no-repeat center center fixed;
+    background-size: cover;
+}
