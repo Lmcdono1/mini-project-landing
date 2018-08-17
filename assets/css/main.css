@@ -41,7 +41,29 @@
             display: inline-block;
             width: 30%;
             margin: 40px 0;
-            padding: 10px;
+            padding: 0;
             border: none;
-            border-bottom: 3px white solid;
+            border-bottom: 3px orangered solid;
         }
+
+            .hero-wrap .hero-search .input-group {
+                background-color: transparent;
+            }
+
+                .hero-wrap .hero-search .input-group .form-control {
+                    background-color: transparent;
+                    border: none;
+                    padding: 10px;
+                    box-shadow: none;
+                    color: white;
+                }
+
+                    .hero-wrap .hero-search .input-group .form-control::placeholder {
+                        color: orangered;
+                    }
+
+                .hero-wrap .hero-search .input-group .input-group-btn .btn-default {
+                    background-color: transparent;
+                    color: orangered;
+                    border: none;
+                }

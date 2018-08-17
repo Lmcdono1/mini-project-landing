@@ -47,7 +47,8 @@
         <h1 class="hero-cta">Get Pickin', Not Picky!</h1>
         <form class="hero-search" role="search">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search your location...">
+                <input name="q" type="hidden" />
+                <input type="search" name="qfront" required class="searchField form-control" placeholder="Search your location...">
                 <span class="input-group-btn">
                     <button type="submit" class="btn btn-default">
                         <span class="glyphicon glyphicon-search"></span>
@@ -55,13 +56,20 @@
                 </span>
             </div>
         </form>
-        <br><br>
+        <br>
+        <br>
     </div>
     <div class="container">
         <div class="row">
 
         </div>
     </div>
+    <script>
+        //GOOGLE SEARCH
+        //Enter domain of site to search.
+        var domainroot = "pcfilicetti.github.io/mini-project-landing"
+        function Gsitesearch(curobj) { curobj.q.value = "site:" + domainroot + " " + curobj.qfront.value } 
+    </script>
 </body>
 
 </html>
